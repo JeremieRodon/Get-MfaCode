@@ -22,10 +22,10 @@ Get-MFAcode.ps1 -ListProfile
 TOTP.ps1 [-Key] <Key> [-T0 <Date>] [-TI <integer>] [-TokenLength <integer (<=8)>]
 The script used by Get-MFACode to generate the OTP. Can be used standalone if needed.
 
-Defaults are :
-T0 = 01/01/1970
-TI = 30
-TokenLength = 6
+Defaults are :__
+T0 = 01/01/1970__
+TI = 30__
+TokenLength = 6__
 
 With default settings, generate the same 6-digits OTP than Google Authenticator.
 You need to provide the secret key : the one you can get when a website display the QR code.
