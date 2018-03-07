@@ -2,7 +2,7 @@
 [Parameter(Mandatory=$true)][String]$Key,
 [DateTime]$T0=([DateTime]"1970/01/01"),
 [int]$TI=30,
-[int]$TokenLength=6
+[ValidateRange(1,8)][int]$TokenLength=6
 )
 
 function GetBytesFromBase32Chunk {
