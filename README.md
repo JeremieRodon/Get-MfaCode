@@ -1,7 +1,7 @@
 # Get-MfaCode
 Those 3 scripts are attended to ease our life when handling multiple MFA devices. <br />
 THEY HAVE TO BE PLACED AT THE ROOT OF YOUR HOME DIRECTORY !!! <br />
-(Typically C:\Users\\<login>) <br />
+(Typically C:\Users\\\<login>) <br />
 
 If you want to use this, just start a Powershell (that will conveniently start with your home as working directory)
 
