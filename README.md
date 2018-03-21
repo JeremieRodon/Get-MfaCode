@@ -9,6 +9,7 @@ If you want to use this, just start a Powershell (that will conveniently start w
 Register-MFACode.ps1 [-ProfileName] <profile_name> [-MFAKey] <key> <br />
 Will register a Base32 key under the name "profile_name". It will be usable by Get-MFAcode.ps1 <br />
 The key is stored encrypted in a SecureString ; which mean it can only be decipher by your Windows user account.
+WARNING : If you are using Windows10, there is a console history and it will contain the key in clear text ; be sure to clean it
 
 ## Generate the OTP for a profile
 Get-MFAcode.ps1 [-ProfileName] <profile_name> <br />
