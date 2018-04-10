@@ -117,5 +117,5 @@ $offset = ($hash[-1]) -band 0xf
 $integer = (($hash[$offset] -band 0x7f) -shl 24) -bor (([int]$hash[$offset+1]) -shl 16) -bor (([int]$hash[$offset+2]) -shl 8) -bor ([int]$hash[$offset+3])
 $code = $integer % ([Math]::Pow(10,$TokenLength))
 
-return $code.ToString("".PadLeft($TokenLength,"0"))
+return $code.ToString().PadLeft($TokenLength,"0")
 
