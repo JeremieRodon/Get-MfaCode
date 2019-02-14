@@ -37,5 +37,3 @@ There is always a link/button that will display the secret key (for manual confi
 
 See : https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm <br />
 for more details
-
-hahahaha
